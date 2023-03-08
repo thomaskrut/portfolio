@@ -4,15 +4,25 @@ body {
     background-color: #000000;
     margin: auto;
     width: 60%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
-    color: #c1c1c1;
+    color: #929292;
+    
+}
+
+p {
+    line-height: 25px;
+}
+
+td.portfolio {
+    padding: 15px;
+    vertical-align: top;
 }
 
 nav {
     width: 100%;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 120px;
 }
 
 nav table {
@@ -21,16 +31,30 @@ nav table {
     width: 30%;
 }
 
-nav a {
+a {
     text-decoration: none;
     color: #c1c1c1;
 }
 
-
-
-nav a:hover {
+a:hover {
     color: #ff9500;
-    
+}
+
+social-media table {
+    text-align: center;
+    margin: auto;
+    width: 16%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+social-media img {
+    max-width: 25px;
+}
+
+hr {
+    max-width: 60%;
+    border-color:#ff9500;
 }
 
 h1 {
@@ -39,7 +63,7 @@ h1 {
     color: #929292;
     text-align: center;
     margin-bottom: 0px;
-    margin-top: 12px;
+    margin-top: 0px;
 }
 
 dot {
@@ -49,14 +73,21 @@ dot {
     padding-bottom: 0px;
 }
 
+footer {
+    font-size: 10px;
+    text-align: center;
+    color: #929292;
+}
+
 img.portrait {
-    max-width: 60px;
+    max-width: 70px;
     padding: 20px;
 }
 
-project img {
-    max-height: 200px;
-    border-radius: 2%;
+img.project {
+    max-height: 400px;
+    border-radius: 4%;
+    padding: 10px;
 }
 
 @media screen and (max-width: 800px) {
