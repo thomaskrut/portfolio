@@ -4,21 +4,47 @@ body {
     background-color: #000000;
     margin: auto;
     width: 60%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #c1c1c1;
+}
 
+nav {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+nav table {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c1c1c1;
+   
+   
+}
+
+nav a:hover {
+    color: #ff9500;
+    
 }
 
 h1 {
     font-family: 'Prompt', sans-serif;
     font-size: 48pt;
-    color: #888888;
+    color: #929292;
     text-align: center;
     margin-bottom: 0px;
+    margin-top: 12px;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
-    color: #c6c6c6;
+hr {
+    max-width: 10%;
+    border-color: #323232;
 }
 
 img.portrait {
@@ -39,5 +65,11 @@ project img {
 
     h1 {
         font-size: 36pt;
+    }
+
+    nav table {
+        text-align: center;
+        margin: auto;
+        width: 60%;
     }
 }
