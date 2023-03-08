@@ -24,9 +24,9 @@ nav table {
 nav a {
     text-decoration: none;
     color: #c1c1c1;
-   
-   
 }
+
+
 
 nav a:hover {
     color: #ff9500;
@@ -42,13 +42,15 @@ h1 {
     margin-top: 12px;
 }
 
-hr {
-    max-width: 10%;
-    border-color: #323232;
+dot {
+    color: #ff9500;
+    font-size: 64pt;
+    padding-left: 6px;
+    padding-bottom: 0px;
 }
 
 img.portrait {
-    max-width: 80px;
+    max-width: 60px;
     padding: 20px;
 }
 
