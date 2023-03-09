@@ -127,7 +127,7 @@ img.gif-left {
     }
 
     table.portfolio {
-        max-width: 20%;
+        max-width: 100%;
         margin: auto;
     
         font-size: 10pt;
@@ -138,7 +138,8 @@ img.gif-left {
     }
 
     img.project {
-        max-width: 200px;
+        
+        max-width: 90%;
         padding: 10px;
         border-radius: 20px;
     }
