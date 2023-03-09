@@ -10,6 +10,8 @@ body {
 
 }
 
+
+
 td.intro {
     line-height: 20px;
     text-align: justify;
@@ -17,7 +19,7 @@ td.intro {
 }
 
 table.portfolio {
-    max-width: 20%;
+    max-width: 60%;
     margin: auto;
 
     font-size: 10pt;
@@ -97,7 +99,7 @@ img.portrait {
 }
 
 img.project {
-    max-width: 500px;
+    max-width: 600px;
     padding: 10px;
     border-radius: 20px;
 }
@@ -113,7 +115,7 @@ img.gif-left {
 @media screen and (max-width: 800px) {
 
     body {
-        width: 100%;
+        width: 90%;
     }
 
     h1 {
@@ -129,7 +131,7 @@ img.gif-left {
     table.portfolio {
         max-width: 100%;
         margin: auto;
-    
+
         font-size: 10pt;
     }
 
@@ -138,7 +140,7 @@ img.gif-left {
     }
 
     img.project {
-        
+
         max-width: 90%;
         padding: 10px;
         border-radius: 20px;
