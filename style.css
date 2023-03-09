@@ -126,7 +126,20 @@ img.gif-left {
         width: 60%;
     }
 
+    table.portfolio {
+        max-width: 20%;
+        margin: auto;
+    
+        font-size: 10pt;
+    }
+
     social-media table {
         width: 40%;
+    }
+
+    img.project {
+        max-width: 300px;
+        padding: 10px;
+        border-radius: 20px;
     }
 }
