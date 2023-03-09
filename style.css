@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Prompt:wght@800&display=swap');
 
 body {
@@ -20,16 +19,9 @@ td.intro {
 table.portfolio {
     max-width: 20%;
     margin: auto;
-   
-    font-size: 9pt;
+
+    font-size: 10pt;
 }
-
-
-td.right {
-    text-align: right;
-
-}
-
 
 
 nav {
@@ -106,23 +98,17 @@ img.portrait {
 
 img.project {
     max-width: 500px;
-    padding: 5px;
-    border-radius: 15px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 img.gif-left {
     max-width: 200px;
-    padding: 5px;
+    padding: 10px;
     float: left;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
-img.gif-right {
-    max-width: 200px;
-    padding: 5px;
-    float: right;
-    border-radius: 15px;
-}
 
 @media screen and (max-width: 800px) {
 
