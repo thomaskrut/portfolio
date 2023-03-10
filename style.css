@@ -21,8 +21,11 @@ td.intro {
 table.portfolio {
     max-width: 60%;
     margin: auto;
+    font-size: 9pt;
+}
 
-    font-size: 10pt;
+table.portfolio td {
+    vertical-align: top;
 }
 
 
@@ -107,7 +110,6 @@ img.project {
 img.gif-left {
     max-width: 200px;
     padding: 10px;
-    float: left;
     border-radius: 20px;
 }
 
@@ -119,7 +121,7 @@ img.gif-left {
     }
 
     h1 {
-        font-size: 36pt;
+        font-size: 28pt;
     }
 
     nav table {
@@ -140,7 +142,6 @@ img.gif-left {
     }
 
     img.project {
-
         max-width: 90%;
         padding: 10px;
         border-radius: 20px;
