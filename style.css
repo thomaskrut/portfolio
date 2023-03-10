@@ -13,8 +13,7 @@ body {
 
 
 td.intro {
-    line-height: 20px;
-    text-align: justify;
+    text-align: left;
     padding-right: 50p;
 }
 
@@ -31,7 +30,7 @@ table.portfolio td {
 
 nav {
     width: 100%;
-    padding: 10px;
+    padding: 0px;
     margin-top: 30px;
 }
 
@@ -79,6 +78,7 @@ h1 {
     text-align: center;
     margin-bottom: 0px;
     margin-top: 0px;
+  
 }
 
 dot {
@@ -103,13 +103,13 @@ img.portrait {
 
 img.project {
     max-width: 600px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 20px;
 }
 
 img.gif-left {
     max-width: 200px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 20px;
 }
 
