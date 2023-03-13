@@ -31,8 +31,8 @@ table.portfolio td {
 }
 
 iframe {
-    width: 400px;
-    height: 300px;
+    max-width: 400px;
+    max-height: 300px;
     border: 0;
 }
 
@@ -124,6 +124,12 @@ img.gif-left {
 
 
 @media screen and (max-width: 800px) {
+
+    iframe {
+        max-width: 200px;
+       
+        border: 0;
+    }
 
     body {
         width: 90%;
