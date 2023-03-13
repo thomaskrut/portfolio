@@ -10,7 +10,10 @@ body {
 
 }
 
-
+p.contact {
+    font-weight: bolder;
+    text-align: center;
+}
 
 td.intro {
     text-align: left;
@@ -25,6 +28,12 @@ table.portfolio {
 
 table.portfolio td {
     vertical-align: top;
+}
+
+iframe {
+    width: 400px;
+    height: 300px;
+    border: 0;
 }
 
 
