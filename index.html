@@ -31,25 +31,66 @@
 
     <table>
         <tr>
-          
+
             <td class="intro">
                 <p><img src="images/headshot.png" class="portrait" alt="thomas">
-                    Thomas tycker inte att han är för gammal för att lära sig nya saker. Han tänker fortsätta försöka tills han blir motbevisad.
-                    När han inte sitter med något projekt på Nackademins javautvecklarprogram försöker han återskapa gamla datorspel från sin ungdom.
-                    Hans portfolio visar väl om inte annat på en viss bredd. Eller kanske en desperation att kunna göra allt, innan det är för sent.
-                    </p>
+                    Thomas tycker inte att han är för gammal för att lära sig nya saker. Han tänker fortsätta försöka
+                    tills han blir motbevisad.
+                    När han inte sitter med något projekt på Nackademins javautvecklarprogram försöker han återskapa
+                    gamla datorspel från sin ungdom.
+                    Hans portfolio visar väl om inte annat på en viss bredd. Eller kanske en desperation att kunna göra
+                    allt, innan det är för sent.
+                </p>
+
+            </td>
+        </tr>
+        <tr>
+            <td class="chat">
+
+                <div class="chatbox">
+
+                    <input type="text" id="sender" name="sender" placeholder="Vem är du?">
+
+                    <button onclick="join()">Gå med</button>
+
+                    <br><br>
+
+                    Online: <span id="activeusers"></span>
+
+                </div>
+
+                
+                <div class="chatbox invisible">
+                    <div id="messages"></div>
+                    <input type="text" name="message" id="message" placeholder="Message" class="invisible"></textarea>
+
+                    <button onclick="send()" class="invisible">Skicka</button>
+
+                </div>
             </td>
         </tr>
     </table>
+
+
+
+
+
+    
+
+    
+
+    <script src="script.js"></script>
 
     <social-media>
         <table>
             <tr>
                 <td>
-                    <a href="https://www.linkedin.com/in/thomas-krut/" target="_blank"><img src="images/linkedin.png" alt="linkedin profile"></a>
+                    <a href="https://www.linkedin.com/in/thomas-krut/" target="_blank"><img src="images/linkedin.png"
+                            alt="linkedin profile"></a>
                 </td>
                 <td>
-                    <a href="https://github.com/thomaskrut" target="_blank"><img src="images/github.png" alt="github profile"></a>
+                    <a href="https://github.com/thomaskrut" target="_blank"><img src="images/github.png"
+                            alt="github profile"></a>
                 </td>
                 <td>
                     <a href="mailto:thomas.krut@yh.nackademin.se"><img src="images/email.png" alt="email"></a>
@@ -60,7 +101,8 @@
 
     <hr>
 
-    <footer>Copyright &copy; 2023 – Thomas Krut – <a href="mailto:thomas.krut@yh.nackademin.se">thomas.krut@yh.nackademin.se</a></footer>
+    <footer>Copyright &copy; 2023 – Thomas Krut – <a
+            href="mailto:thomas.krut@yh.nackademin.se">thomas.krut@yh.nackademin.se</a></footer>
 
 </body>
 
