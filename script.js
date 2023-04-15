@@ -71,17 +71,13 @@ function initGetActiveUsers(username) {
         xhr2.send()
         xhr2.onload = () => {
             const usersResponse = JSON.parse(xhr2.response)
-
             usersResponse.forEach(user => {
                 if (!activeUsers.includes(user)) {
                     activeUsers.push(user)
                 }
             })
-
         }
-
         updateActiveUsers()
-
     }, 3000)
 
 
@@ -93,20 +89,15 @@ function initGetMessages(username) {
         const xhr1 = new XMLHttpRequest()
         xhr1.open('GET', 'https://messserver-thomaskkrut.b4a.run/message/' + username)
         xhr1.send()
-
         xhr1.onload = () => {
             const messagesRespone = JSON.parse(xhr1.response)
             console.log(messagesRespone)
-
             messagesRespone.forEach(message => {
                 if (message.sender != username) {
                     localMessagesArray.push(message)
                 }
             })
-            
             updateMessages()
-
         }
     }, 3000)
 }
-
